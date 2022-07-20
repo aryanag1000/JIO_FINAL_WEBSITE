@@ -1,0 +1,252 @@
+body {
+  color: rgba(64, 64, 64, 0.65);
+  font: 500 1em Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizelegibility;
+  margin: 0;
+  padding: 0;
+}
+
+*:focus {
+  outline: none !important;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.Dropzone-img {
+  max-width: calc(100vw - 60px);
+  max-height: calc(100vw - 60px);
+  width: 380px;
+  height: 380px;
+  border: thin solid rgba(64, 64, 64, 0.15);
+  border-radius: 4px;
+  object-fit: cover;
+}
+
+.Dropzone {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border: thin dashed #c2c2c2;
+  background: #fcfcfc;
+  max-width: calc(100vw - 40px);
+  max-height: calc(100vw - 40px);
+  width: 400px;
+  height: 400px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.Dropzone-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Dropzone-page {
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.prediction {
+  max-width: calc(100vw - 40px);
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 10px 0 10px;
+}
+body {
+  font-family: "Montserrat";
+  text-align: center;
+  background-size: 100%;
+  background-attachment: fixed;
+}
+html {
+  scroll-behavior: smooth;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat-Bold";
+}
+
+p {
+  color: #8f8f8f;
+}
+.footer {
+  background-color: #1dddd1;
+  text-align: left;
+  padding: 10px 0 10px 100px;
+  color: white;
+  margin-bottom: 0;
+}
+.output {
+  background-color: #1dddd1;
+
+  text-align: left;
+  padding: 30px;
+}
+.input {
+  background-color: #1dddd1;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.input1 {
+}
+/* Headings */
+
+.big-heading {
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+}
+
+.navbar {
+  background-color: #1dddd1;
+  padding: 1rem 1rem 0rem 12rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+}
+.nav-link {
+  font-size: 1.8rem;
+  font-family: "Montserrat-Light";
+}
+
+/* Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Section */
+
+#title {
+  color: #fff;
+  text-align: left;
+}
+#content {
+  color: #fff;
+  text-align: left;
+  padding: 3% 15% 7%;
+}
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* developrs section */
+.devlp {
+  text-align: center;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+}
+.intro {
+  color: #fff;
+}
+.details {
+  padding: 0% 15%;
+  color: #fff;
+}
+.content {
+  text-align: center;
+  margin-top: 100px;
+  padding: 0;
+  width: 100%;
+  height: 500px;
+}
+.foot {
+  background-color: black;
+}
+.img3 {
+  width: 10%;
+
+  margin: 10px;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.input1 {
+  color: white;
+  white-space: pre-wrap;
+  overflow-y: auto;
+  word-break: break-word;
+}
+.parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.heading {
+  text-align: center;
+  background: yellow;
+  border: black 3px solid;
+  padding: 5px;
+  width: 500px;
+}
+
+.img {
+  width: 250px;
+  height: auto;
+  margin-block-end: 15px;
+}
+
+.select {
+  border: black 3px solid;
+  height: 30px;
+  width: 350px;
+  text-align: center;
+}
+
+.textarea {
+  width: 350px;
+  height: 300px;
+  border-radius: 10px;
+  margin: 20px;
+  border: black 3px solid;
+}
+
+.btn {
+  margin: 15px;
+  height: 40px;
+  width: 170px;
+  border-radius: 10px;
+  border: black 3px solid;
+  outline: none;
+  cursor: grab;
+}
